@@ -1,6 +1,6 @@
-# HB.Framework
+# Aliyun
 
 
-Travis:   [![Build Status](https://staging.travis-ci.org/yzbai/HB.Framework.svg?branch=master)](https://staging.travis-ci.org/yzbai/HB.Framework)
+Travis:   [![Build Status](https://staging.travis-ci.org/yzbai/Aliyun.svg?branch=master)](https://staging.travis-ci.org/yzbai/Aliyun)
 
-Appveyor: [![Build status](https://ci.appveyor.com/api/projects/status/0admjui8074qqoxx?svg=true)](https://ci.appveyor.com/project/presentfish/hb-framework)
+Appveyor: [![Build status](https://ci.appveyor.com/api/projects/status/h1xl9v9ir0cucroh/branch/master?svg=true)](https://ci.appveyor.com/project/presentfish/aliyun/branch/master)
