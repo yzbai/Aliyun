@@ -13,6 +13,7 @@ dotnet build
 
 $revision = @{ $true = $env:APPVEYOR_BUILD_NUMBER; $false = 1 }[$env:APPVEYOR_BUILD_NUMBER -ne $NULL];
 $revision = [convert]::ToInt32($revision, 10)
-$revision = [string]::Format("{0:D4}", $revision)
+$revision = [convert]::ToInt32($revision, 10) + 3000
+#$revision = [string]::Format("{0:D4}", $revision)
 
 dotnet pack -c Release -o .\..\..\artifacts --version-suffix=alpha-$revision
